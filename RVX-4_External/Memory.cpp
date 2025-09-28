@@ -163,3 +163,4 @@ char* Memory::ReadPointerText(HANDLE processHandle, int startAddress, int offset
         return (char*)"-1";
     return ReadText(processHandle, GetPointerAddress(processHandle, startAddress, offsets, offsetCount));
 }
+
