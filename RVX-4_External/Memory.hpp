@@ -22,3 +22,4 @@ public:
     char* ReadText(HANDLE processHandle, int address);
     char* ReadPointerText(HANDLE processHandle, int startAddress, int offsets[], int offsetCount);
 };
+
